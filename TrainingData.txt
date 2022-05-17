@@ -1,0 +1,181 @@
+AWS             -- concentrate on applications  
+AWS Cloud watch -- mainly concentrate on resources
+AWS Cloud trail -- monitoring & tracking of apis
+
+9908711821
+
+https://forms.office.com/r/vFTzTtRpKW
+
+33648873588
+K Padmavathi
+9440329978
+SBIN0015970
+
+54.197.54.128 -- Lab4-01
+Administrator
+LE@Aj-@l(c4hVtBeGGcP=ouw-Ca9mCvY
+
+
+inventory-db-instance-1.cgwc13piywip.us-east-1.rds.amazonaws.com  -- DB instance end point -- 25/04/2022
+54.235.6.110 -- public ip address
+mysql -u master -p -h inventory-db-instance-1.cgwc13piywip.us-east-1.rds.amazonaws.com
+
+sudo git clone https://github.com/gvsureshCoforge/lab-05-1.git
+
+inventory-db-instance-2.cgwc13piywip.us-east-1.rds.amazonaws.com -- 2nd instance for read
+
+26/4/2022
+---------
+54.226.46.200 -- lab-05-02
+
+eY;(z?WM5e@l;;ksC@XAh$9hoymvuElO
+
+DynamoDB-User AKIA3KAHJ2WTRBSAM47B -- accessKey
+DynamoDB-User 5WKD6UCnzK5Ecm6Y24iP6JlYXgxvoLo6a+lxCI0z  -- secret key 
+us-east-1
+json
+
+':val1': "GCP", ':val2': "Reddy"
+
+
+28/04/2022
+-----------
+httprepl https://jyd12t7jz2.execute-api.us-east-1.amazonaws.com/ReadWrite-API
+
+54.173.252.43 -- lab-06-01
+AsKvQ6eEAz%8K8;r(E)LhkQovhMScZBc
+
+
+arn:aws:lambda:us-east-1:777404405159:function:OpenCaseFunction 
+arn:aws:lambda:us-east-1:777404405159:function:AssignCaseFunction
+arn:aws:lambda:us-east-1:777404405159:function:WorkOnCaseFunction
+arn:aws:lambda:us-east-1:777404405159:function:CloseCaseFunction
+arn:aws:lambda:us-east-1:777404405159:function:EscalateCaseFunction
+
+29/04/2022
+-----------
+54.144.64.28 -- lab-09
+F2*=GgEmM?)omj!qEElx5Gt!bL)5FOhm
+
+ https://sqs.us-east-1.amazonaws.com/777404405159/order-queue
+ https://sqs.us-east-1.amazonaws.com/777404405159/order-queue-2
+ 
+ Please enter the Queue URL
+https://sqs.us-east-1.amazonaws.com/777404405159/order-queue-2
+MessageId: d15f0884-de01-45e9-a03d-2e126129f799
+ReceiptHandle: AQEBm9VebhpflLMU5XCfzg6gbf+mOB8XkLcGi35LuW/WN6oBthpYqENvVeXQQh39LG007Aj63NszPPZJ6h6OPGIJyxAbRG6n0jwdSDpSn9R1q4pszsvqGLbpdw1BDN4ysOmmiravXzHMrhGlgQ9hMWzZuNJ6DMvU81/fZXQHHCucR1nc0gdni+ijM7v1ymoHEgfBdVGotARYrupxtj8iN1RzPPLmnvb7lid/XPVj32/WWet7sB6Gt+Fe9LY+PMKnUIuYQp7ltaS663mcXSWdq3FRgo3ctibhSaGbTuRqlzm8E+FsSsNeDj2dawOBFN96PLu5yi2gqda8Glhpc4Jfht1KXyEu64SxZpGYSqSQPYF3G6IM0X1c4epWxx3FiVhTfYXynV928orsXV4EX1ZprdRFRQ==
+Body: Laptop=2 qty
+
+
+Topic: arn:aws:sns:us-east-1:777404405159:order-topic
+  Attributes:
+    Policy = {"Version":"2008-10-17","Id":"__default_policy_ID","Statement":[{"Sid":"__default_statement_ID","Effect":"Allow","Principal":{"AWS":"*"},"Action":["SNS:GetTopicAttributes","SNS:SetTopicAttributes","SNS:AddPermission","SNS:RemovePermission","SNS:DeleteTopic","SNS:Subscribe","SNS:ListSubscriptionsByTopic","SNS:Publish"],"Resource":"arn:aws:sns:us-east-1:777404405159:order-topic","Condition":{"StringEquals":{"AWS:SourceOwner":"777404405159"}}}]}
+    Owner = 777404405159
+    SubscriptionsPending = 0
+    TopicArn = arn:aws:sns:us-east-1:777404405159:order-topic
+    EffectiveDeliveryPolicy = {"http":{"defaultHealthyRetryPolicy":{"minDelayTarget":20,"maxDelayTarget":20,"numRetries":3,"numMaxDelayRetries":0,"numNoDelayRetries":0,"numMinDelayRetries":0,"backoffFunction":"linear"},"disableSubscriptionOverrides":false}}
+    SubscriptionsConfirmed = 0
+    DisplayName =
+    SubscriptionsDeleted = 0
+	
+
+Please enter the Queue URL
+https://sqs.us-east-1.amazonaws.com/777404405159/order-queue
+MessageId: bed4295b-a93c-4ff5-86a1-c07380f4fb1c
+ReceiptHandle: AQEBbcZHdbNxbdu2EjLvwWlJsenV0K+Vz6sxbIa/Lv8rM9n4OH3uZmcT8a+JJqqtlpRHLmQ8A1B2SzFOhDK2RRo/WoMUkUjTUEL2IyVLcx16Hm0NKHb8Ep7J0E0mN3hcR00+aClYUmMPjRFu+a2nPIrG4Wbaxce34eI4+e0UHm2j8Y0qHn9/eEtsA3fd4qP2tBP1nmKlFkDn+rLuBGQ3Lf3ipk0h1q7O9VVHugzjmCGCvzmjxmoRbTqnoe2QLUDZ6eL1pGmwaWlc/S3EKNIiKmXmMVyGO3icwR1Ie+WVIqF0hGi2p0nUp9KE0M4rw8inB/bI2IuazwnsbjQEmGnVu36pdHiZwZMg8vXcMKkQ3mIbz5Q10IKg/IOi2mqW9FE8qW2ZybRh9di2Vx/MvbE3SdyA2Q==
+Body: {
+  "Type" : "Notification",
+  "MessageId" : "934b86e2-97c6-5724-8f99-dc071d773183",
+  "TopicArn" : "arn:aws:sns:us-east-1:777404405159:order-topic",
+  "Message" : "Apple=20 qty",
+  "Timestamp" : "2022-04-29T06:40:49.376Z",
+  "SignatureVersion" : "1",
+  "Signature" : "ZPdg2v6jBq18p/tEd2CU4OF6lxxUhHgerClFpQm+5GbyODdSKPslWF/2d5pXQCWnVDdSQTslkgqilyCr5XTM9chtWRHyQxNvCM+DarsM1NdjO63l/UKJ7lVHl2ZIVl8bKAQgW4eeOulFdueSfhp4ZTBfYAAJOkTLFfyGvr7aybQmZQhYVkcgxSgURRAFHtu1C8vPs0uABzLmZ7sOW9G0PoedMB+dnp+2WASiqArsbH7/HIlVM2gmWiDUrMHud/H39orWSRckK+wKzs+IIrrabHZ8dEb38x8N4Os7UQCC7re2dPoR1CS/K3aB8GEGy0fo0YLz3QqgVKhdRV+/mdZmrg==",
+  "SigningCertURL" : "https://sns.us-east-1.amazonaws.com/SimpleNotificationService-7ff5318490ec183fbaddaa2a969abfda.pem",
+  "UnsubscribeURL" : "https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:777404405159:order-topic:f38fb6b3-1c24-4797-a88f-a3be5eff024b"
+}
+
+
+3.89.24.131  -- Web server
+34.205.81.211 -- Application server
+
+https://sqs.us-east-1.amazonaws.com/777404405159/web-queue  
+https://sqs.us-east-1.amazonaws.com/777404405159/application-queue
+
+sudo git clone https://github.com/gvsureshCoforge/webserver.git
+
+sudo git clone https://github.com/gvsureshCoforge/appserver.git
+
+
+02/05/2022
+-----------
+
+54.152.5.117 -- 01
+
+sudo docker run --name db -p 3306 -v /mysql-data:/var/lib/mysql -e MYSQL_ROOT_HOST='%' -e MYSQL_ROOT_PASSWORD=password -d mysql:5.6
+
+ef780dcf4f7b
+
+sudo mysql -P 49153 --protocol=tcp -u root -p
+
+create table products (id int NOT NULL AUTO_INCREMENT, name varchar(255), quantity varchar(255), price varchar(255), PRIMARY KEY('id'));
+
+sudo git clone https://github.com/gvsureshCoforge/webapp.git
+
+sudo wget https://raw.githubusercontent.com/ahmadzahoory/awsdev/main/Dockerfile
+
+42ee2d7cc718
+
+mysql -u root -p -h 172.17.0.2
+
+sudo docker tag webapp-image 777404405159.dkr.ecr.us-east-1.amazonaws.com/ecs-db  
+sudo docker tag webapp-image 777404405159.dkr.ecr.us-east-1.amazonaws.com/ecs-webapp
+
+docker push 777404405159.dkr.ecr.us-east-1.amazonaws.com/ecs-db
+docker push 777404405159.dkr.ecr.us-east-1.amazonaws.com/ecs-webapp
+
+777404405159.dkr.ecr.us-east-1.amazonaws.com/ecs-webapp:latest
+777404405159.dkr.ecr.us-east-1.amazonaws.com/ecs-db:latest
+
+sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
+0.0.0.0:5000->80/tcp
+0.0.0.0:5001->3306/tcp
+
+18.206.233.160
+
+/home/ubuntu/.rvm/gems/ruby-2.6.3/bin:/home/ubuntu/.rvm/gems/ruby-2.6.3@global/bin:/home/ubuntu/.rvm/rubies/ruby-2.6.3/bin:/home/ubuntu/.nvm/versions/node/v16.14.2/bin:/home/ubuntu/.rvm/gems/ruby-2.6.3/bin:/home/ubuntu/.rvm/gems/ruby-2.6.3@global/bin:/home/ubuntu/.rvm/rubies/ruby-2.6.3/bin:/home/ubuntu/.rvm/gems/ruby-2.6.3/bin:/home/ubuntu/.rvm/gems/ruby-2.6.3@global/bin:/home/ubuntu/.rvm/rubies/ruby-2.6.3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin:/usr/local/bin:/home/ubuntu/.rvm/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin:/usr/local/bin:/home/ubuntu/.rvm/bin:/home/ubuntu/.rvm/bin:/home/ubuntu/.local/bin:/home/ubuntu/bin:/usr/local/bin:/home/ubuntu/.rvm/bin:/home/ubuntu/.rvm/bin
+
+
+04/05/2022
+------------
+http://ride-website-demo123.s3-website-us-east-1.amazonaws.com
+
+Pool Id us-east-1_67nypOhjS
+Pool ARN arn:aws:cognito-idp:us-east-1:777404405159:userpool/us-east-1_67nypOhjS
+
+app client id :  7p6fmvn09okne72or4203a2clo
+
+
+eyJraWQiOiI2VDF0ckJKS3dncXFvNTFncTdQMnVXOG9QN3E2UlBzd3cyVE1leWc0Z3lFPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI0NjVkZTBiNC01NzM2LTRlMDQtOTY2ZS02NjQzN2UxOWM0M2UiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLnVzLWVhc3QtMS5hbWF6b25hd3MuY29tXC91cy1lYXN0LTFfNjdueXBPaGpTIiwiY29nbml0bzp1c2VybmFtZSI6IjQ2NWRlMGI0LTU3MzYtNGUwNC05NjZlLTY2NDM3ZTE5YzQzZSIsIm9yaWdpbl9qdGkiOiI5MGE3MDRhYS0xY2VhLTQ5ZDMtYTI2My0wNjBlODYxYTE0OTIiLCJhdWQiOiI3cDZmbXZuMDlva25lNzJvcjQyMDNhMmNsbyIsImV2ZW50X2lkIjoiZmIxNjg2NzktYmIyYy00NTRlLTkxNWUtYzg3MDUwNGJmOWFhIiwidG9rZW5fdXNlIjoiaWQiLCJhdXRoX3RpbWUiOjE2NTE2NDQyNjMsImV4cCI6MTY1MTY0Nzg2MywiaWF0IjoxNjUxNjQ0MjYzLCJqdGkiOiI5NDIxYmJkYS01ZTZjLTQ5M2QtODdjYy04MTFmNzZmMjc2YjMiLCJlbWFpbCI6ImdhanVsYS4xLnJlZGR5QGNvZm9yZ2UuY29tIn0.cp-alGks5dQ5QII-vDCkRo40L6_xlh9szCwR4TskUZtj9T6w_fvsrAXDLfqpNloiEBGM475VlR72xPFClwcCvGcTi35WTVUfRMVi6t9jAIUcqxC_CIux8g0GcS38JRbUg9rnqLt4BUntyz2IJcAVvLYp5WOlODlx-1A00HfWD5_n16Pno0EFvmNR-zXqGAlwEM0wpEd4D0lxLdgx5uDqsVEwle5syFYfn0eOlE72LLE-9SVfwEx5co5czD8WuCMYiGjDxDzw-2LO7gennrKjVW6XqsEd9-5tjPe1u6isNDZE4lfE6qpikFcciJQhjSbq5Tz0q9mziGzX0COjd6z6SQ
+
+arn:aws:dynamodb:us-east-1:777404405159:table/Rides
+
+
+{
+"aud": "7p6fmvn09okne72or4203a2clo",
+"auth_time": "1651644263",
+"cognito:username": "465de0b4-5736-4e04-966e-66437e19c43e",
+"email": "gajula.1.reddy@coforge.com",
+"email_verified": "true",
+"event_id": "fb168679-bb2c-454e-915e-c870504bf9aa",
+"exp": "Wed May 04 07:04:23 UTC 2022",
+"iat": "Wed May 04 06:04:23 UTC 2022",
+"iss": "https://cognito-idp.us-east-1.amazonaws.com/us-east-1_67nypOhjS",
+"jti": "9421bbda-5e6c-493d-87cc-811f76f276b3",
+"origin_jti": "90a704aa-1cea-49d3-a263-060e861a1492",
+"sub": "465de0b4-5736-4e04-966e-66437e19c43e",
+"token_use": "id"
+}
+
+https://goq3y4510f.execute-api.us-east-1.amazonaws.com/ride
